@@ -1,6 +1,12 @@
 # Worms
 A reimplementation of Worms? for modern terminals.
 
+Simply double clicking the exe in your file browser won't show anything. (The game will close as soon as it opens.) 
+Instead, hold your Windows or Super key (near Fn or Alt) and press 'r'. In the new bottom-left menu, type "cmd". 
+This will open a Commmand Prompt. Use the "dir" command to list the current directory. Use the "cd name_of_directory" command to Change Directory. 
+Navigate your tree of folders just as you do in the graphical File Browser. "cd .." will back you out one level. 
+When Worms++.exe is listed by dir, you're in the correct directory. Run it ("Worms++.exe") without arguments to print a help menu. 
+
 
 This video: 
 
@@ -44,3 +50,5 @@ before recalling that I already implemented RAND mode to do that autonomously.
 
 In summary, each (colored) worm has an encoded list of which path to take given what paths are active or deactivated around its position. 
 These can be programmed in during gameplay, or copy-pasted into the worms.txt file. 
+
+
